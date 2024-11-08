@@ -1,0 +1,78 @@
+compaq@Compaq-510:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+compaq@Compaq-510:~$ cd Desktop
+compaq@Compaq-510:~/Desktop$ ls
+OSL1
+compaq@Compaq-510:~/Desktop$ cd OSL1
+compaq@Compaq-510:~/Desktop/OSL1$ ls
+bhavishya.txt
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed 's/developer/Developer/' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application Developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '3d' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+compaq@Compaq-510:~/Desktop/OSL1$ sed '2a\Currently working with Linux System' bhavishya.txtMy name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Currently working with Linux System
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '4d' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '2a\Currently working with Linux System' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Currently working with Linux System
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '3d' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '2a\Currently working with Linux System' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Currently working with Linux System
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+
+compaq@Compaq-510:~/Desktop/OSL1$ sed '2a\Currently working with Linux System' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Currently working with Linux System
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '3d' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ sed '2a\Currently working with Linux System' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+Currently working with Linux System
+Bhavishya
+compaq@Compaq-510:~/Desktop/OSL1$ cat bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+
+compaq@Compaq-510:~/Desktop/OSL1$ sed '3d' bhavishya.txt
+My name is Bhavishya Chawla.I am an Android Application developer
+This is the second line of the file typed using cat command 
+
+
